@@ -26,6 +26,7 @@ body {
 
 .contacts {
     margin-left: 15%;
+    display: flex;
 }
 
 .contacts__list {
@@ -49,12 +50,26 @@ body {
 }
 
 
+
 .contacts__list-link:hover{
     color: #FFF;
 }
 .vk:hover{
     color: #ff9500;
 }
+
+.contacts__login{
+    display: flex; 
+    margin-left: 200px;
+}
+.contacts__login-item{
+    display: flex;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+
+
 .header__inner-white {
     display: flex;
     justify-content: space-between;
@@ -73,6 +88,8 @@ body {
 }
 .logo__text{
     padding-left: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
 }
 .logo__img{
     background-repeat: no-repeat;
