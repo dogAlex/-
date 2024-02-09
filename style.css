@@ -5,9 +5,12 @@ body {
     color: #544837;
     font-size: 16px;
     line-height: 26px;
+    overflow-x: hidden;
+
 }
 .header{
-    margin: -10px;
+    display:block;
+    margin: -10px -8px -10px;
     margin-bottom: 25px;
 }
 .container {
@@ -51,6 +54,7 @@ body {
 
 
 
+
 .contacts__list-link:hover{
     color: #FFF;
 }
@@ -60,15 +64,33 @@ body {
 
 .contacts__login{
     display: flex; 
-    margin-left: 200px;
+    margin-left: 150px;
 }
 .contacts__login-item{
     display: flex;
     margin-left: 15px;
     justify-content: space-between;
 }
+.contacts__list-button{
+    display: inline-block;
+    color: #969696;
+    line-height: 24px;
+    text-decoration: none;
+    border: 1px solid #BCD0E5;
+    padding: 0px 23px;
+    font-size: 16px;
+    text-align: center;
+}
+.button2{
+    color: #000;
+    background-color: #FFF;
+}
 
-
+.contacts__list-button:hover{
+    color: #ff9500;
+    background-color: #FFF;
+    cursor: pointer;
+}
 
 .header__inner-white {
     display: flex;
@@ -124,5 +146,3 @@ body {
 .menu__list-link:hover{
     color: #ff9500;
 }
-
-
